@@ -25,7 +25,7 @@ const MiniCard = () => {
   return (
     <Container>
       <Image src={Search} />
-      <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
+      <Text>Lorem ipsum dolor sit amet consectetur.</Text>
     </Container>
   );
 };
