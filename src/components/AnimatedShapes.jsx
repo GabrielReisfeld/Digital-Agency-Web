@@ -5,7 +5,7 @@ const Square = styled.div`
   width: 60px;
   height: 60px;
   background-color: #4e6bff;
-  opactiy: 0.7;
+  opacity: 0.7;
   position: absolute;
   top: -60px;
   left: -60px;
@@ -39,7 +39,7 @@ const Rectangle = styled.div`
   width: 50px;
   height: 100px;
   background-color: #669966;
-  opactiy: 0.5;
+  opacity: 0.5;
   position: absolute;
   top: 400px;
   left: -50px;
