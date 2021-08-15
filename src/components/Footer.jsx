@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 const Container = styled.div`
   height: 10%;
@@ -19,6 +20,7 @@ const List = styled.ul`
   margin: 0;
   list-style: none;
   display: flex;
+  align-items: center;
 `;
 const ListItem = styled.a`
   margin-right: 20px;
@@ -32,7 +34,7 @@ const ListItem = styled.a`
     font-size: 14px;
   }
 `;
-const Copyright = styled.span`
+const Copyright = styled.a`
   @media only screen and (max-width: 480px) {
     font-size: 14px;
   }
@@ -48,7 +50,17 @@ const Footer = () => {
           <ListItem href="#service">Services</ListItem>
           <ListItem href="#pricing">Pricing</ListItem>
         </List>
-        <Copyright>Gabriel Dev</Copyright>
+        <Copyright
+          href="https://github.com/GabrielReisfeld/Website-React"
+          target="_blank"
+        >
+          <GitHubIcon
+            style={{
+              fontSize: "50px",
+              color: "black",
+            }}
+          />
+        </Copyright>
       </Wrapper>
     </Container>
   );
