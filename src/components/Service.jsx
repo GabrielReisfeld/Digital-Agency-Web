@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Woman from "../img/woman3.png";
 import MiniCard from "./MiniCard";
 import Play from "../img/play.png";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   display: flex;
@@ -38,6 +39,7 @@ const Video = styled.video`
 `;
 const Right = styled.div`
   width: 50%;
+  margin-top: 50px;
   @media only screen and (max-width: 480px) {
     width: 100%;
   }
@@ -50,16 +52,20 @@ const Wrapper = styled.div`
     padding: 20px;
   }
 `;
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 60px;
+  margin-bottom: 30px;
+`;
 const Desc = styled.p`
   font-size: 20px;
   margin-top: 20px;
+  margin-bottom: 30px;
   color: #555;
 `;
 const CardContainer = styled.div`
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin-top: 70px;
 `;
 const Button = styled.button`
   width: 180px;
@@ -69,10 +75,13 @@ const Button = styled.button`
   color: white;
   font-size: 20px;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 70px;
   cursor: pointer;
   display: flex;
   align-items: center;
+  &:hover {
+    background-color: crimson;
+  }
 `;
 
 const Icon = styled.img`
@@ -145,6 +154,7 @@ const Service = () => {
           <CloseButton onClick={() => setOpen(false)}>Close</CloseButton>
         </Modal>
       )}
+      <AnimatedShapes />
     </Container>
   );
 };
