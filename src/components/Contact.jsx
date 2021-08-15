@@ -25,7 +25,9 @@ const FormContainer = styled.div`
   }
 `;
 const Title = styled.h1`
+  font-size: 50px;
   margin: 50px;
+  text-align: center;
   margin-top: 0;
   @media only screen and (max-width: 480px) {
     margin: 20px;
@@ -86,6 +88,9 @@ const Button = styled.button`
   border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
+  &:hover {
+    background-color: crimson;
+  }
   @media only screen and (max-width: 480px) {
     padding: 5px;
     font-size: 14px;
