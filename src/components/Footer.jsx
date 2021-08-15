@@ -20,8 +20,10 @@ const List = styled.ul`
   list-style: none;
   display: flex;
 `;
-const ListItem = styled.li`
+const ListItem = styled.a`
   margin-right: 20px;
+  color: lightgray;
+  text-decoration: none;
   @media only screen and (max-width: 480px) {
     margin-right: 10px;
     font-size: 14px;
@@ -38,10 +40,10 @@ const Footer = () => {
     <Container>
       <Wrapper>
         <List>
-          <ListItem>Guide</ListItem>
-          <ListItem>Support</ListItem>
-          <ListItem>API</ListItem>
-          <ListItem>Community</ListItem>
+          <ListItem href="#home">Home</ListItem>
+          <ListItem href="#feature">Features</ListItem>
+          <ListItem href="#service">Services</ListItem>
+          <ListItem href="#pricing">Pricing</ListItem>
         </List>
         <Copyright>Gabriel Dev</Copyright>
       </Wrapper>

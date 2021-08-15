@@ -23,16 +23,16 @@ const Logo = styled.h1`
 const Menu = styled.ul`
   display: flex;
   list-style: none;
-
   @media only screen and (max-width: 480px) {
     display: none;
   }
 `;
-const MenuItem = styled.li`
+const MenuItem = styled.a`
   margin-right: 30px;
   font-size: 20px;
   font-weight: bold;
   color: gray;
+  text-decoration: none;
 `;
 
 const Button = styled.button`
@@ -52,11 +52,10 @@ const Navbar = () => {
         <Left>
           <Logo>Agency</Logo>
           <Menu>
-            <MenuItem>Home</MenuItem>
-            <MenuItem>Features</MenuItem>
-            <MenuItem>Services</MenuItem>
-            <MenuItem>Pricing</MenuItem>
-            <MenuItem>Contact</MenuItem>
+            <MenuItem href="#feature">Features</MenuItem>
+            <MenuItem href="#service">Services</MenuItem>
+            <MenuItem href="#pricing">Pricing</MenuItem>
+            <MenuItem href="#contact">Contact</MenuItem>
           </Menu>
         </Left>
         <Button>JOIN TODAY</Button>

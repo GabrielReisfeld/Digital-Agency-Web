@@ -47,24 +47,24 @@ function App() {
   const smallScreen = window.screen.width <= 480 ? true : false;
   return (
     <>
-      <Container>
+      <Container id="home">
         <Navbar />
         <Intro />
         <IntoShape />
       </Container>
-      <Container>
+      <Container id="feature">
         <Feature />
         <FeatureShape />
       </Container>
-      <Container>
+      <Container id="service">
         <Service />
         {smallScreen && <ServiceShape />}
       </Container>
-      <Container>
+      <Container id="pricing">
         <Price />
         <PriceShape />
       </Container>
-      <Container>
+      <Container id="contact">
         <Contact />
         <Footer />
       </Container>
