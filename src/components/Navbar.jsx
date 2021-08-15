@@ -33,6 +33,9 @@ const MenuItem = styled.a`
   font-weight: bold;
   color: gray;
   text-decoration: none;
+  &:hover {
+    color: darkblue;
+  }
 `;
 
 const Button = styled.button`
@@ -43,6 +46,10 @@ const Button = styled.button`
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
+  &:hover {
+    color: darkblue;
+    border: 2px solid darkblue;
+  }
 `;
 
 const Navbar = () => {

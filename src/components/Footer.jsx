@@ -24,6 +24,9 @@ const ListItem = styled.a`
   margin-right: 20px;
   color: lightgray;
   text-decoration: none;
+  &:hover {
+    color: darkblue;
+  }
   @media only screen and (max-width: 480px) {
     margin-right: 10px;
     font-size: 14px;
