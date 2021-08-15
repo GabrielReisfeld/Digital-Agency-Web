@@ -60,6 +60,9 @@ const Button = styled.button`
   border: none;
   letter-spacing: 2px;
   cursor: pointer;
+  &:hover {
+    background-color: crimson;
+  }
   @media only screen and (max-width: 480px) {
     margin-bottom: 20px;
   }
