@@ -24,7 +24,7 @@ const Circle = styled.div`
   border-radius: 50%;
   background-color: #ff97af;
   position: absolute;
-  top: 200px;
+  top: 300px;
   left: -100px;
   z-index: -1;
 
@@ -41,7 +41,7 @@ const Rectangle = styled.div`
   background-color: #669966;
   opacity: 0.5;
   position: absolute;
-  top: 400px;
+  top: 600px;
   left: -50px;
   z-index: -1;
 
