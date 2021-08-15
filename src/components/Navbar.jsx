@@ -57,7 +57,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Agency</Logo>
+          <Logo>Web Agency</Logo>
           <Menu>
             <MenuItem href="#feature">Features</MenuItem>
             <MenuItem href="#service">Services</MenuItem>
