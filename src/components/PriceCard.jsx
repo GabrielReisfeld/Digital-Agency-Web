@@ -29,6 +29,7 @@ const Price = styled.span`
   }
 `;
 const Type = styled.button`
+font-size: 20px;
   padding: 10px;
   margin: 10px 0;
   border: 1.5px solid crimson;
@@ -58,6 +59,9 @@ const Button = styled.button`
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+  &:hover {
+    background-color: crimson;
+  }
   @media only screen and (max-width: 480px) {
     font-size: 12px;
     padding: 5px;
