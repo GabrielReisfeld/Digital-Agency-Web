@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Woman from "../img/woman3.png";
+import Woman from "../img/service.png";
 import MiniCard from "./MiniCard";
 import Play from "../img/play.png";
 import AnimatedShapes from "./AnimatedShapes";
@@ -40,6 +40,7 @@ const Video = styled.video`
 const Right = styled.div`
   width: 50%;
   margin-top: 50px;
+  margin-right: 150px;
   @media only screen and (max-width: 480px) {
     width: 100%;
   }
@@ -81,6 +82,9 @@ const Button = styled.button`
   align-items: center;
   &:hover {
     background-color: crimson;
+  }
+  @media only screen and (max-width: 480px) {
+    margin-top: 10px;
   }
 `;
 
@@ -130,14 +134,14 @@ const Service = () => {
             We provide digital experience services to startups and small
             businesses to looking for a partner of their digital media, design &
             development, lead generation and communications requirents. We work
-            with you, not for you. Although we have a great resources
+            with you, not for you.
           </Desc>
           <CardContainer>
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
+            <MiniCard desc="Digital Experience" />
+            <MiniCard desc="Your Digital Partner" />
+            <MiniCard desc="Media, Design & Development" />
           </CardContainer>
-          <Button onClick={() => setOpen(true)}>
+          <Button onClick={() => setOpen(!open)}>
             <Icon src={Play} /> How it works
           </Button>
         </Wrapper>
