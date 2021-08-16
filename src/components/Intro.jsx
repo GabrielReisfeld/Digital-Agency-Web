@@ -94,7 +94,7 @@ const Intro = () => {
   return (
     <Container>
       <Left>
-        <Title>Adventures in creative age</Title>
+        <Title>Shocking the world</Title>
         <Desc>
           We believe that designing products and services in close partnership
           with our clients is the only way to have a real impact on their
@@ -104,7 +104,7 @@ const Intro = () => {
           <Button>START A PROJECT</Button>
           <Contact>
             <Phone>Call Us (012) 345 - 6789</Phone>
-            <ContactText>For any question or concern</ContactText>
+            <ContactText>For any question you have</ContactText>
           </Contact>
         </Info>
       </Left>
