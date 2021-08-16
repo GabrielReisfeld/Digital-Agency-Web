@@ -27,11 +27,11 @@ const Text = styled.span`
   }
 `;
 
-const MiniCard = () => {
+const MiniCard = ({ desc }) => {
   return (
     <Container>
       <Image src={Search} />
-      <Text>Lorem ipsum dolor sit amet consectetur.</Text>
+      <Text>{desc}</Text>
     </Container>
   );
 };

@@ -153,17 +153,17 @@ const Contact = () => {
         <AddressContainer>
           <AdressItem>
             <Icon src={Map} />
-            <Text>123 Park Avenue St., New York, USA</Text>
+            <Text>5359 Collins Ave Miami, FL 33140, EE. UU.</Text>
           </AdressItem>
           <AdressItem>
             <Icon src={Phone} />
-            <Text>+1 631 1234 5678</Text>
-            <Text>+1 326 1234 5678</Text>
+            <Text>+1 351 1234 5678</Text>
+            <Text>+1 354 1234 5678</Text>
           </AdressItem>
           <AdressItem>
             <Icon src={Send} />
             <Text>contact@greis.com</Text>
-            <Text>sales@greis.com</Text>
+            <Text>support@greis.com</Text>
           </AdressItem>
         </AddressContainer>
       </Wrapper>
