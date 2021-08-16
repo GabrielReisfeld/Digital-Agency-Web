@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 const Container = styled.div`
   height: 50px;
@@ -38,8 +39,7 @@ const MenuItem = styled.a`
   }
 `;
 
-const Button = styled.button`
-  border: 2px solid white;
+const Instagram = styled.a`
   padding: 10px 15px;
   background-color: crimson;
   color: white;
@@ -47,8 +47,7 @@ const Button = styled.button`
   border-radius: 10px;
   cursor: pointer;
   &:hover {
-    color: darkblue;
-    border: 2px solid darkblue;
+    color: black;
   }
 `;
 
@@ -57,7 +56,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Web Agency</Logo>
+          <Logo>Digital Agency</Logo>
           <Menu>
             <MenuItem href="#feature">Features</MenuItem>
             <MenuItem href="#service">Services</MenuItem>
@@ -65,7 +64,13 @@ const Navbar = () => {
             <MenuItem href="#contact">Contact</MenuItem>
           </Menu>
         </Left>
-        <Button>JOIN TODAY</Button>
+        <Instagram href="https://www.instagram.com/" target="_blank">
+          <InstagramIcon
+            style={{
+              fontSize: "50px",
+            }}
+          />
+        </Instagram>
       </Wrapper>
     </Container>
   );
