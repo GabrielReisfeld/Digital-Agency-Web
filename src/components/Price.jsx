@@ -34,9 +34,30 @@ const Price = () => {
         <Title>Prices</Title>
       </Up>
       <Bottom>
-        <PriceCard price="10" type="Basic" />
-        <PriceCard price="20" type="Premium" />
-        <PriceCard price="30" type="Advance" />
+        <PriceCard
+          price="10"
+          type="Basic"
+          desc="10 Hand-Crafted Templates"
+          sup="Email Support"
+          pre="5 PreBuilt Websites"
+          plug="Standard Plugins"
+        />
+        <PriceCard
+          price="20"
+          type="Premium"
+          desc="50 Hand-Crafted Templates"
+          sup="Exclusive Support"
+          pre="10 PreBuilt Websites"
+          plug="Premium Plugins"
+        />
+        <PriceCard
+          price="30"
+          type="Advance"
+          desc="100 Hand-Crafted Templates"
+          sup="VIP Support"
+          pre="50+ PreBuilt Websites"
+          plug="Advance Plugins"
+        />
       </Bottom>
       <AnimatedShapes />
     </Container>

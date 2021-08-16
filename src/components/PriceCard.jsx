@@ -68,7 +68,7 @@ const Button = styled.button`
   }
 `;
 
-const PriceCard = ({ price, type }) => {
+const PriceCard = ({ price, type, desc, sup, pre, plug }) => {
   return (
     <Container>
       <PriceContainer>
@@ -76,10 +76,10 @@ const PriceCard = ({ price, type }) => {
       </PriceContainer>
       <Type>{type}</Type>
       <List>
-        <ListItem>200 Hand-Crafted Templates</ListItem>
-        <ListItem>Exclusive Support</ListItem>
-        <ListItem>50+ PreBuilt Websites</ListItem>
-        <ListItem>Premium Plugins</ListItem>
+        <ListItem>{desc}</ListItem>
+        <ListItem>{sup}</ListItem>
+        <ListItem>{pre}</ListItem>
+        <ListItem>{plug}</ListItem>
       </List>
       <Button>Join Now</Button>
     </Container>
