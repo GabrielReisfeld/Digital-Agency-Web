@@ -49,6 +49,10 @@ const Desc = styled.p`
   font-size: 20px;
   color: #777;
   margin-top: 30px;
+  margin-right: 200px;
+  @media only screen and (max-width: 480px) {
+    margin-right: 0;
+  }
 `;
 const Button = styled.button`
   width: 150px;
