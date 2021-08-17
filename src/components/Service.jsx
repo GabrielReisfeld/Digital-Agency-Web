@@ -67,6 +67,9 @@ const CardContainer = styled.div`
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
+  @media only screen and (max-width: 480px) {
+    margin-top: 10px;
+  }
 `;
 const Button = styled.button`
   width: 180px;
