@@ -10,6 +10,7 @@ const Container = styled.div`
 const Up = styled.div`
   text-align: center;
   margin: 100px;
+  margin-bottom: 50px;
   @media only screen and (max-width: 480px) {
     margin: 40px;
   }
