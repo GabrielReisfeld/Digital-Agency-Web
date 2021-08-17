@@ -13,6 +13,7 @@ const Up = styled.div`
   margin-bottom: 50px;
   @media only screen and (max-width: 480px) {
     margin: 40px;
+    margin-bottom: 10px;
   }
 `;
 const Bottom = styled.div`
